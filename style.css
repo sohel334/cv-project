@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  grid-template-rows: auto auto auto;
+}
+.sohel1 {
+  background: chartreuse;
+}
+.sohel2 {
+  background: #e60c42;
+}
+.sohel3 {
+  background: #0b3ee6;
+}
